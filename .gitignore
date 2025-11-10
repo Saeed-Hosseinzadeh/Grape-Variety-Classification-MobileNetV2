@@ -1,0 +1,32 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / editor files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary / intermediate model files
+# Keep only the final production-ready model files.
+*.h5
+!grape_model_final.h5
+!grape_model_finetuned_final.h5
+
+# Keep prediction metadata required at runtime
+!class_names.npy
+
+# Keep useful project assets
+!*.jpg
+!*.jpeg
+!*.png
+!*.webp
